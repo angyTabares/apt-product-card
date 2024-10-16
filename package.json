@@ -7,6 +7,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/angyTabares/apt-product-card",
+    "type": "git"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -48,6 +52,7 @@
     }
   ],
   "devDependencies": {
+    "@types/react-test-renderer": "^18.3.0",
     "@babel/preset-env": "^7.25.8",
     "@babel/preset-react": "^7.25.7",
     "@rollup/plugin-image": "2.1.1",
@@ -70,7 +75,6 @@
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.1",
-    "@types/react-test-renderer": "^18.3.0",
     "@types/testing-library__react": "^10.2.0",
     "postcss": "^8.4.47",
     "react-testing-library": "^8.0.1"
@@ -83,5 +87,10 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     }
-  }
+  },
+  "keywords": [
+    "product",
+    "card",
+    "angy"
+  ]
 }
